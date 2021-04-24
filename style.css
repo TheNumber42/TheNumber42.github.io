@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+#header-img {
+    margin: 50px auto;
+}
+
+.container {
+    background-color: silver;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#header {
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 4rem;    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.dates {
+    margin: 25px;
+}
+
+.dates li {
+    margin-left: 40px;
+    margin-top: 10px;
+}
